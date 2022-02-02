@@ -3,20 +3,20 @@ class Sco < Formula
     homepage "https://github.com/qingfeng346/Scorpio-CSharp"
     license "GPL-3.0"
     if OS.mac? && Hardware::CPU.intel?
-      url "https://github.com/qingfeng346/Scorpio-CSharp/releases/download/v2.3.5/sco-2.3.5-osx-x64.zip"
-      sha256 "b3a66a4050139c6b7f9170420afe89845db6e521186f47e7fb10d49b5cf9b172"
+      url "https://github.com/qingfeng346/Scorpio-CSharp/releases/download/v2.3.6/sco-2.3.6-osx-x64.zip"
+      sha256 "163ED2E81994148D7C0064183049A1A5EAAF08363636E360E172262CD177D76F"
     end
     if OS.mac? && Hardware::CPU.arm?
-      url "https://github.com/qingfeng346/Scorpio-CSharp/releases/download/v2.3.5/sco-2.3.5-osx-arm64.zip"
-      sha256 "00586f83f6c6bdadee033408c8cabe0ba0f2731b675a68960e02335d9f03313f"
+      url "https://github.com/qingfeng346/Scorpio-CSharp/releases/download/v2.3.6/sco-2.3.6-osx-arm64.zip"
+      sha256 "D3BBBBEA14E77D71341FA74792ED72865CF75E9D6E95B618F92BB94E962CD93A"
     end
     if OS.linux? && Hardware::CPU.intel?
-      url "https://github.com/qingfeng346/Scorpio-CSharp/releases/download/v2.3.5/sco-2.3.5-linux-x64.zip"
-      sha256 "a106348dd5e6deb9ce0cff664b3bf23cb58be703d5773cdbe96a56309ef44631"
+      url "https://github.com/qingfeng346/Scorpio-CSharp/releases/download/v2.3.6/sco-2.3.6-linux-x64.zip"
+      sha256 "77C49EBFEC1C2DE676CFD587B018E294B72559B4B7F5E7A31E40E670F8D74742"
     end
     if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/qingfeng346/Scorpio-CSharp/releases/download/v2.3.5/sco-2.3.5-linux-arm64.zip"
-      sha256 "1ce16069c9bea1e1c90533aa244652a29e7f8f63649db5d2d4201c1b6c65647e"
+      url "https://github.com/qingfeng346/Scorpio-CSharp/releases/download/v2.3.6/sco-2.3.6-linux-arm64.zip"
+      sha256 "41894B831C0E02416E8641B33DAC08FF98F356DA799330C5937326CCD77C32FB"
     end
     def install
       prefix.install Dir["*"]
