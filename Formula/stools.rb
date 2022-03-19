@@ -1,4 +1,4 @@
-class Sco < Formula
+class Stools < Formula
     desc "stools"
     homepage "https://github.com/qingfeng346/stools"
     license "GPL-3.0"
